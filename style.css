@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.topText {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #222d42;
+  margin-top: 185px;
+  padding: 0 20px;
+}
+.mainLogoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 105.3px;
+  background-image: url("./assets/IgniteLogoBackground.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 209.8px;
+}
+.igniteMainLogo {
+  position: relative;
+  left: 15px;
+  padding: 0 50px 15px 20px;
+  background-color: #fff;
+  width: 526.8px;
+  height: 141.8px;
+}
+.igniteTopRight {
+  position: fixed;
+  top: -72px;
+  right: -82px;
+}
+.igniteBottomLeft {
+  width: 220px;
+  position: fixed;
+  bottom: -44px;
+  left: -37px;
+}
+.dateText {
+  font-family: "Noto Sans", sans-serif;
+  color: #222d42;
+  margin-top: 41.3px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.locationContainer {
+  text-align: center;
+  margin-top: 10px;
+}
+.locationLogo {
+  margin-top: 5px;
+  margin-right: 2px;
+}
+.locationName {
+  font-size: 24px;
+  color: #222d42;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerImg {
+  width: 436.9px;
+  height: 31.8px;
+  object-fit: contain;
+}
+.footerText {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.57;
+  color: #b2b9c7;
+  margin-top: 8px;
+}
+@media screen and (max-width: 480px) {
+  .topText {
+    font-size: 22px;
+    margin-top: 125px;
+  }
+  .mainLogoContainer {
+    margin-top: 40px;
+    height: 165px;
+  }
+  .igniteMainLogo {
+    width: 325px;
+    left: 0;
+    top: 12px;
+    padding: 10px;
+  }
+  .igniteTopRight {
+    width: 150px;
+    top: -38px;
+    right: -65px;
+  }
+  .igniteBottomLeft {
+    width: 135px;
+    bottom: -60px;
+    left: -105px;
+  }
+  .dateText {
+    font-size: 18px;
+    margin-top: 32px;
+  }
+  .locationLogo {
+    height: 15px;
+  }
+  .locationName {
+    font-size: 18px;
+  }
+  footer {
+    margin-bottom: 20px;
+  }
+  .footerImg {
+    width: 310px;
+    height: 31.8px;
+  }
+  .footerText {
+    font-size: 13px;
+    margin-top: 3px;
+  }
+}
+
+@media screen and (min-width: 440px) and (max-width: 480px) {
+  .topText {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .topText {
+    margin-top: 115px;
+  }
+  .mainLogoContainer {
+    margin-top: 35px;
+    height: 145px;
+  }
+  .igniteMainLogo {
+    width: 300px;
+  }
+  .footerImg {
+    width: 275px;
+    height: 31.8px;
+  }
+  .footerText {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .topText {
+    font-size: 24px;
+    margin-top: 125px;
+    padding: 0 50px;
+  }
+  .topText > span {
+    width: 300px;
+  }
+  .mainLogoContainer {
+    margin-top: 40px;
+  }
+  .igniteMainLogo {
+    width: 400px;
+    left: 0;
+    top: 12px;
+    padding: 10px;
+  }
+  .dateText {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .locationLogo {
+    width: 11px;
+  }
+  .locationName {
+    font-size: 20px;
+  }
+  .igniteTopRight {
+    width: 185px;
+    top: -72px;
+    right: -80px;
+  }
+  .igniteBottomLeft {
+    width: 150px;
+    bottom: -65px;
+    left: -78px;
+  }
+  footer {
+    margin-bottom: 22px;
+  }
+  .footerImg {
+    width: 342px;
+    height: 31.8px;
+  }
+  .footerText {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 536px) and (max-width: 635px) {
+  .topText {
+    padding: 0 100px;
+  }
+  .mainLogoContainer {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .topText {
+    font-size: 24px;
+    margin-top: 140px;
+  }
+  .mainLogoContainer {
+    margin-top: 75px;
+  }
+  .dateText {
+    font-size: 22px;
+    margin-top: 0px;
+  }
+  .locationLogo {
+    width: 12px;
+  }
+  .locationName {
+    font-size: 22px;
+  }
+  .igniteMainLogo {
+    width: 450px;
+    left: 0;
+    top: 12px;
+    padding: 10px;
+  }
+  .igniteTopRight {
+    width: 215px;
+    top: -53px;
+    right: -58px;
+  }
+  .igniteBottomLeft {
+    width: 175px;
+    bottom: -48px;
+    left: -37px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .topText {
+    font-size: 30px;
+    margin-top: 120px;
+  }
+  .mainLogoContainer {
+    margin-top: 75px;
+  }
+  .dateText {
+    margin-top: 0px;
+  }
+  .igniteMainLogo {
+    width: 475px;
+    left: 0;
+    top: 12px;
+    padding: 10px;
+  }
+  .igniteTopRight {
+    width: 245px;
+    top: -60px;
+    right: -80px;
+  }
+  .igniteBottomLeft {
+    width: 200px;
+    bottom: -54px;
+    left: -40px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) and (max-height: 700px) {
+  .mainLogoContainer {
+    margin-top: 35px;
+    height: 200px;
+  }
+  .igniteTopRight {
+    width: 225px;
+    top: -60px;
+    right: -80px;
+  }
+  .igniteBottomLeft {
+    width: 180px;
+    bottom: -54px;
+    left: -40px;
+  }
+  .dateText {
+    font-size: 20px;
+  }
+  .locationName {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-height: 900px) {
+  .mainLogoContainer {
+    margin-top: 35px;
+    height: 200px;
+  }
+  .igniteTopRight {
+    width: 225px;
+    top: -60px;
+    right: -80px;
+  }
+  .igniteBottomLeft {
+    width: 180px;
+    bottom: -54px;
+    left: -40px;
+  }
+  .dateText {
+    font-size: 20px;
+  }
+  .locationName {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) and (max-height: 700px) {
+  .topText {
+    margin-top: 100px;
+  }
+  .mainLogoContainer {
+    margin-top: 20px;
+  }
+  .dateText {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) and (max-height: 600px) {
+  .topText {
+    margin-top: 90px;
+  }
+  .mainLogoContainer {
+    margin-top: 15px;
+  }
+  .dateText {
+    margin-top: 15px;
+  }
+}
